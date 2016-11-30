@@ -1,0 +1,82 @@
+## 历史记录
+
+- 1.0.1
+    - 发布了 pldroid-rtc-streaming-1.0.1.jar
+    - 更新 libpldroid_streaming_core.so
+    - 更新 libpldroid_streaming_h264_encoder.so
+    - 更新了推流 SDK 版本为 pldroid-media-streaming-2.1.1.jar
+    - 新增截帧功能
+    - 新增左右 PK 方式连麦的支持
+    - 增加 AVCC 支持，解决 iOS 硬解失败问题
+    - 修复弱网情况下概率性崩溃问题
+    - 修复硬编模式开启 Improved 模式，导致播放端画面异常的问题
+    - 修复部分机型概率性导致水印显示异常
+- 1.0.0
+    - 发布了 pldroid-rtc-streaming-1.0.0.jar
+    - 更新了 libpldroid_rtc_streaming.so
+    - 更新了 libpldroid_streaming_h264_encoder.so
+    - 更新了 libpldroid_mmprocessing.so
+    - 更新了推流 SDK 版本为 PLDroidMediaStreaming v2.1.0
+    - 新增纯音频连麦的支持
+    - 新增推流的软硬编配置
+    - 新增连麦大小窗口切换的支持
+    - 新增获取连麦人数和用户列表的接口
+    - 新增 RTCUserEventListener 类，通知用户加入/退出会议的消息
+    - RTCVideoWindow 新增 setZOrderMediaOverlay 和 setZOrderOnTop 接口
+    - 修复房间号前后带空格导致加入陌生房间的问题
+    - 修复 WiFi 切换为 4G 后连麦小窗口画面不动的问题
+    - 修复静音后退出连麦再推流没有声音的问题
+    - 修复 init 初始化耗时太长的问题
+    - 优化了RTCStreamingManager 的音视频数据导入接口
+- 0.6.1
+    - 发布了 pldroid-rtc-streaming-0.6.1.jar
+    - 修复频繁开关连麦会有资源泄漏，导致内存增长
+    - 修复在某些使用姿势下出现 NULL 指针异常
+- 0.6.0
+    - 发布了 pldroid-rtc-streaming-0.6.0.jar
+    - 更新了 libpldroid_rtc_streaming.so
+    - 更新了推流 SDK 版本为 PLDroidMediaStreaming v2.0.3
+    - 新增了 ARM, ARM64v8a, X86 芯片体系架构的支持
+    - 新增了横屏连麦的 demo 示例
+    - 新增了断线重连的 demo 示例
+    - 修复了连麦软编配置不生效的问题
+    - 修复了部分情况下推流重连导致的 ANR 问题
+    - 修复了部分机型上连麦音量特别小的问题
+    - 修复了部分机型上拒绝摄像头权限导致的崩溃问题
+- 0.5.0
+    - 发布了 pldroid-rtc-streaming-0.5.0.jar
+    - 更新了 libpldroid_rtc_streaming.so
+    - 更新了推流 SDK 版本为 PLDroidMediaStreaming v2.0.0
+    - 修复了部分场景下的连麦BUG
+    - 更新 demo，调整和优化连麦参数配置
+- 0.4.0
+    - 发布了 pldroid-rtc-streaming-0.4.0.jar
+    - 更新了 libpldroid_rtc_streaming.so
+    - 支持外部音频采集
+    - 支持连麦的视频图像大小的配置
+    - 支持动态改变外部数据源的尺寸和角度
+    - 简化了推流和连麦的接口和调用流程
+- 0.3.0
+    - 发布了 pldroid-rtc-streaming-0.3.0.jar
+    - 更新了 libpldroid_rtc_streaming.so
+    - 支持静音功能
+    - 支持连麦的帧率配置
+    - 支持连麦的视频码率的配置
+    - 支持连麦的网络重连和超时的配置
+    - 优化合流窗口的参数配置接口
+    - 支持多种 Camera 的操作接口，包括：闪光灯、聚焦、水印等
+    - 提供了外部美颜接口
+- 0.2.0
+    - 发布了 pldroid-rtc-streaming-0.3.0.jar
+    - 更新了 libpldroid_rtc_streaming.so
+    - 支持内部 Camera 采集，带美颜功能
+    - 支持摄像头切换
+    - 支持踢人功能
+    - 支持修改动态库的名称
+- 0.1.0
+    - 发布了 pldroid-rtc-streaming-0.3.0.jar
+    - 更新了 libpldroid_rtc_streaming.so
+    - 实现了基本的推流和连麦对讲功能
+    - 基本的视频合流和音频混音功能
+    - 支持外部 Camera 采集
+    - 支持连麦状态信息回调
