@@ -1,6 +1,6 @@
 ## PLMediaStreaming 简介
 
-PLDroidRTCStreaming 是基于 PLDroidMediaStreaming 开发的一套具有连麦功能的推流 SDK，在不影响原有推流的基础上，提供了简单易用的连麦 API，可快速实现连麦互动功能。
+PLDroidRTCStreaming 是基于 PLDroidMediaStreaming 开发的一套具有连麦功能的推流 SDK，在不影响原有推流的基础上，提供了简单易用的连麦 API，可快速实现连麦互动的功能。
 
 ## 阅读对象
 
